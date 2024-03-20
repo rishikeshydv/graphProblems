@@ -1,0 +1,35 @@
+##Cheap Flight Selector
+You are given the costs of direct flights between pairs of airports. Given one or more origin airports and one or more destination airports, determine the lowest cost way to travel from one of the origin airports to one of the destinations, potentially with connecting flights.
+
+##Currency Arbitrage
+Given a table of exchange rates, identify an arbitrage opportunity if one exists.
+
+##Longest Route
+Engineers have designed a computer network that forms a connected acyclic structure (tree). Vertices represent computers in the network and edges represent fiber-optic cables between two computers.  They want to determine the maximum number of links (edges) between any two computers.  Design an algorithm that calculates this number.
+
+##Consistent Fossil Era Designation
+Archeologists have completed their exploration of a dig site and have collected fossils from the Paleolithic and Mesozoic eras.  A fossil is the remnant of a prehistoric animal.  They wish to classify the fossils into the two groups but it is very hard for them to directly label any one fossil. So, they decide to adopt the following approach.
+For each pair of fossils i and j, they study them carefully side by side. If they’re confident enough in their judgment, then they label the pair (i, j) either same (meaning they believe both are from the same era) or different (meaning they believe they are from different eras).  They also have the option of rendering no judgment on a given pair. 
+So they have the collection of n fossils, as well as a collection of m judgments for the pairs. They’d like to know if this data is consistent with the idea that each fossil is from the Paleolithic era or the Mesozoic era. 
+So more specifically, we’ll declare the m judgments to be consistent if it is possible to label each specimen either Paleolithic or Mesozoic in such a way that for each pair (i, j) labeled same it is the case that i and j have the same label; and for each pair (i, j) labeled different, it is the case that i and j have different labels. 
+Design an algorithm that determines whether the m judgments are consistent and if so determine group membership.
+
+##Fossil Date Sequencing
+The archaeologists hired specialists to analyze the fossils, which we’ll denote F1, F2, ..., Fn.  A fossil is the remnant of a prehistoric animal.  The specialists have made conclusions about when the animals that gave rise to the fossils lived relative to one another. Each conclusion has one of the following two forms:
+For some i and j, the animal that gave rise to Fi died before animal Fj was born; or
+For some i and j, the life spans of the animals that gave rise to Fi and Fj overlapped at least partially.
+The archaeologists want to check on these conclusions before they publish their results.  So, they’d like you to determine whether the conclusions are at least internally consistent, in the sense that there could have existed a set of animals for which all these conclusions simultaneously hold.  If the conclusions are consistent, produce a sequence of the birth and death for each of the n animals so that all the facts hold true.  
+
+##Warring Factions.  
+You are planning a voting rights event in your community that will be held in two rooms.  The attendees will be from two political parties.  Many of the attendees refuse to be in the same room with those from the other political party.  They won't tell you what political party they are from but they will tell you who they won't be in the same room with.  
+Naturally, you will model this as a graph where each attendee is a vertex numbered from 0 to N-1 and an edge (v, w) represents that v and w won't be in the same room together.  (It's symmetrical: Both agree that they won't sit with each other). 
+Your task is to write a function that determines whether or not you can satisfy their demands.  If you can satisfy their demands, list the vertex numbers in each of the two groups of attendees. 
+
+##Validate Topological Order
+Write a function that checks whether or not a given sequence of vertices S of a DAG G is a topological order of G.    
+
+##Calculate Topological Ordering
+Write a function to calculate topological ordering that does not rely on Depth-First Order
+
+##Unique Topological Ordering
+Write an algorithm to determine whether or not the topological ordering of a graph is unique
